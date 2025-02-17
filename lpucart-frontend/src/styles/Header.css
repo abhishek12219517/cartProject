@@ -1,0 +1,75 @@
+/* Header Styling */
+
+#header {
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Title */
+.header-title {
+    font-size:x-large;
+    font-weight: bold;
+    color: white;
+}
+
+/* Navigation Menu */
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Authentication Buttons */
+.auth-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    transition: background 0.3s ease-in-out;
+}
+
+.auth-btn:hover {
+    background: #0056b3;
+}
+
+/* Sign-Up Button */
+
+
+/* Cart Icon */
+.cart_icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart_icon img {
+    width: 30px;
+}
+
+
+
+h4{
+    background-color: white;
+}
+
+
+  
+  .login-btn:hover {
+    background: #0056b3;
+  }

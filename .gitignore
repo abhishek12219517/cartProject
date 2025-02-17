@@ -1,0 +1,7 @@
+# Ignore node_modules globally
+node_modules/
+pucart-frontend/node_modules/
+pucart/server/node_modules/
+
+# Ignore environment files
+.env
